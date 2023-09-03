@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Fira+Sans:wght@100;300&family=Geologica:wght@100;300&family=IBM+Plex+Mono:wght@200;300&family=Open+Sans:wght@300;400&family=Oswald:wght@200;300&family=Quicksand:wght@300;400&family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@100&family=Silkscreen&family=Titillium+Web:wght@200&family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Fira+Sans:wght@100;300&family=Geologica:wght@100;300&family=IBM+Plex+Mono:wght@200;300&family=Open+Sans:wght@300;400&family=Oswald:wght@200;300&family=Quicksand:wght@300;400&family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@100&family=Silkscreen&family=Titillium+Web:wght@200&family=VT323&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    font-family: 'DotGothic16', sans-serif;
+    backdrop-filter: blur(10px);
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.logo img {
+    max-width: 90px;
+    margin-left: 12rem;
+    margin-top: -9px;
+    display: flex;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    color: #4B0082;
+    box-shadow: 0 0 1rem black;
+}
+
+ul{
+    display: flex;
+    margin: 29px;
+    margin-right: 12rem;
+}
+
+li{
+    list-style-type: none;
+    cursor: pointer;
+    padding-left: 20px;
+}
+
+li:hover {
+    color: #C71585;
+}
+
+a { color: inherit;
+    text-decoration: none;
+} 
+
+#título {
+    font-family: 'DotGothic16', sans-serif;
+    font-weight: bold; 
+    color: #4B0082;
+    text-align: center; 
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        justify-content: space-between; 
+    }
+
+    .logo img {
+        max-width: 70px; 
+        margin-left: 10px;
+        margin-top: 5px; 
+    }
+
+    ul {
+        margin: 10px; 
+        margin-right: 10px; 
+    }
+
+    li {
+        padding-left: 10px; 
+        padding-right: 10px;
+    }
+
+    h1 {
+        font-size: 24px; 
+    }
+}
