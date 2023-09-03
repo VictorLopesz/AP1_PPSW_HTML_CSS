@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Fira+Sans:wght@100;300&family=Geologica:wght@100;300&family=IBM+Plex+Mono:wght@200;300&family=Open+Sans:wght@300;400&family=Oswald:wght@200;300&family=Quicksand:wght@300;400&family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@100&family=Silkscreen&family=Titillium+Web:wght@200&family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Fira+Sans:wght@100;300&family=Geologica:wght@100;300&family=IBM+Plex+Mono:wght@200;300&family=Open+Sans:wght@300;400&family=Oswald:wght@200;300&family=Quicksand:wght@300;400&family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@100&family=Silkscreen&family=Titillium+Web:wght@200&family=VT323&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    font-family: 'DotGothic16', sans-serif;
+    backdrop-filter: blur(10px);
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.logo img {
+    max-width: 90px;
+    margin-left: 12rem;
+    margin-top: -9px;
+    display: flex;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    color: #4B0082;
+    box-shadow: 0 0 1rem black;
+}
+
+ul{
+    display: flex;
+    margin: 29px;
+    margin-right: 12rem;
+}
+
+li{
+    list-style-type: none;
+    cursor: pointer;
+    padding-left: 20px;
+}
+
+li:hover {
+    color: #fff;
+}
+
+a { color: inherit;
+    text-decoration: none;
+} 
+
+h1{
+    font-family: 'DotGothic16', sans-serif;
+    font-weight: bold;
+    font-size: 100px; 
+    color: #4B0082;
+}
+
+h3{
+    color: #000;
+}
+
+#n{
+    color: #C71585;
+}
+
+body{
+    background-image: url('img/fundo.jpg');
+    background-size: cover;
+    background-color: pink;
+    margin-top: 120px;
+    color: #fff;
+    text-align: center; 
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.frontend img{
+    margin: 40px;
+    width: 40%;
+}
+
+.btn {
+    margin-left: 43%;
+    background: linear-gradient(to right, #483D8B, #2E8B57);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .btn:hover {
+    background: linear-gradient(to right, #8A2BE2, #00CED1);
+  }
